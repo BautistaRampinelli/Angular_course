@@ -1,0 +1,7 @@
+@defer (when isImageVisible) {
+  <img src="https://chat-gpt-mexico.mx/wp-content/uploads/2024/01/Creacion-de-imagenes-de-arte-generadas-por-IA.jpg" alt="Imagen de astronauta">
+}
+
+@if (!isImageVisible) {
+  <button (click)="showImage()">Ver imagen</button>
+}
