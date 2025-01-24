@@ -1,0 +1,8 @@
+@defer (when isContentReady) {
+  <p>Large component loaded</p>
+  <img src="https://chat-gpt-mexico.mx/wp-content/uploads/2024/01/Creacion-de-imagenes-de-arte-generadas-por-IA.jpg" alt="Imagen de astronauta">
+} @loading (after 200ms; minimum 4s) {
+  <p>loading...</p>
+} @placeholder {
+  <div>Setting up the content</div>
+}
