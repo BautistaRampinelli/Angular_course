@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-advanced-defer',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './advanced-defer.component.html',
   styleUrl: './advanced-defer.component.scss'
 })

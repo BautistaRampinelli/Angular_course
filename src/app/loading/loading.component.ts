@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-loading',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './loading.component.html',
   styleUrl: './loading.component.scss'
 })

@@ -1,6 +1,6 @@
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { Component, input } from '@angular/core';
-import { ItemForm } from '../app.component';
+import { ItemForm } from '../models/item-form';
 import { CustomInputComponent } from '../custom-input/custom-input.component';
 
 @Component({

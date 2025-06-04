@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, forwardRef, input } from '@angular/core';
 import { ControlValueAccessor, FormControl, NG_VALUE_ACCESSOR, ReactiveFormsModule } from '@angular/forms';
-import { ItemForm } from '../app.component';
 
 @Component({
   selector: 'app-custom-input',
