@@ -2,6 +2,8 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
+It now showcases multiple Angular features including reactive forms, various control flow demos and a new drag & drop section built with Angular Material.
+
 ## Development server
 
 To start a local development server, run:

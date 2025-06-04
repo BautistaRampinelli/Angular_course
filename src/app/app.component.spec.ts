@@ -14,16 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'angular-control-flow-syntax' title`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-control-flow-syntax');
-  });
-
-  it('should render title', () => {
+  it('should render toolbar title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-control-flow-syntax');
+    expect(compiled.querySelector('mat-toolbar span')?.textContent).toContain('Angular Demo App');
   });
 });

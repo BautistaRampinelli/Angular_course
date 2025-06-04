@@ -50,10 +50,10 @@ export class CharacterService {
       },
     ];
 
-    of(mockCharacters).subscribe(result => {
+    of(CharacterAdapter(mockCharacters)).subscribe(result => {
       result.forEach(character => this.state().characters.set(character.id, character));
-      this.state.set({characters: this.state().characters})
-    })
+      this.state.set({ characters: this.state().characters });
+    });
   }
 
   getCharacterById(id: number) {
